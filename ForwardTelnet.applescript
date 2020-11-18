@@ -15,7 +15,6 @@ on open location full_URL
 			create tab with default profile command "sh"
 			set s to current session
 			tell s
-				set name to hostname
 				write text "exec /usr/local/bin/telnet " & hostname & " " & portnumber
 			end tell
 		end tell
